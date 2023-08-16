@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- mode: python ; coding: utf-8 -*-
+
+from sysinsight.sysinsight import main
+
+if __name__ == '__main__':
+    main()
