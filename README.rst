@@ -21,5 +21,5 @@ Installation
 
    pip install dist/SOME_NAME_HERE.whl
 
-Now, whenever you wish to run the app, just open a command line window and type "system-insight"
+4. Now, whenever you wish to run the app, just open a command line window and type "system-insight"
 
