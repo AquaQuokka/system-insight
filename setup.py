@@ -21,7 +21,8 @@ setup(
         "console_scripts": ["system-insight = sysinsight.sysinsight:main"]
     },
     version=version,
-    description='A simple tool for quickly gathering information about the current state of the system.',
+    description="",
+    #'A simple tool for quickly gathering information about the current state of the system.',
     long_description="",
     url="https://github.com/AquaQuokka/system-insight",
     author="AquaQuokka",
