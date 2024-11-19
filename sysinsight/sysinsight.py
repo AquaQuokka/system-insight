@@ -13,7 +13,7 @@ import datetime
 import time
 import calendar
 
-__version__ = "1.2.1"
+__version__ = "1.2.2"
 
 """
 # old windows only code

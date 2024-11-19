@@ -5,7 +5,7 @@ import re
 from setuptools import setup, find_packages
 from setuptools import *
 
-with open("README.rst", "r", encoding="utf-8") as f:
+with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 version = re.search(
@@ -21,9 +21,8 @@ setup(
         "console_scripts": ["system-insight = sysinsight.sysinsight:main"]
     },
     version=version,
-    description="",
-    #'A simple tool for quickly gathering information about the current state of the system.',
-    long_description="",
+    description='A simple tool for quickly gathering information about the current state of the system.',
+    long_description=long_description,
     url="https://github.com/AquaQuokka/system-insight",
     author="AquaQuokka",
     license='BSD-3-Clause',
