@@ -22,6 +22,8 @@ setup(
     },
     version=version,
     description='A simple tool for quickly gathering information about the current state of the system.',
+    long_description=long_description,
+    long_description_content_type="text/md",
     url="https://github.com/AquaQuokka/system-insight",
     author="AquaQuokka",
     license='BSD-3-Clause',
