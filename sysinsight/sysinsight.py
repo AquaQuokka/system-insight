@@ -13,7 +13,7 @@ import datetime
 import time
 import calendar
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
 
 """
 # old windows only code
@@ -192,7 +192,7 @@ def main() -> str:
     res += f"CPU Usage (Per CPU): {percpu()}\n"
     res += f"Mean CPU Usage (Per CPU): {avpercpu()}\n"
     res += f"CPU Frequency: {freqcpu()}\n"
-    res += f"Current Process: {current_process()}"
+    # res += f"Current Process: {current_process()}"
     print(res)
 
 
